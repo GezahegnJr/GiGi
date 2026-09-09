@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <style>
+      .fidel-char {
+        font-family: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Nyala', serif;
+        font-size: 26px;
+        fill: #D4AF37;
+        opacity: 0.14;
+      }
+      .fidel-large {
+        font-family: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Nyala', serif;
+        font-size: 48px;
+        fill: #D4AF37;
+        opacity: 0.08;
+      }
+      .fidel-massive {
+        font-family: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Nyala', serif;
+        font-size: 80px;
+        font-weight: 700;
+        fill: #F5D77F;
+        opacity: 0.05;
+      }
+      .yared-symbol {
+        font-family: 'Noto Serif Ethiopic', 'Abyssinica SIL', 'Nyala', serif;
+        font-size: 20px;
+        font-weight: 600;
+        fill: #E5D5C1;
+        opacity: 0.18;
+      }
+      .yared-neume {
+        stroke: #D4AF37;
+        stroke-width: 1.5;
+        fill: none;
+        opacity: 0.22;
+      }
+      .manuscript-dot {
+        fill: #D9383A;
+        opacity: 0.20;
+      }
+      .manuscript-green {
+        fill: #1F854D;
+        opacity: 0.20;
+      }
+    </style>
+  </defs>
+
+  <!-- Large Faint Watermark Fidel in Background -->
+  <text x="50" y="160" class="fidel-massive">ቅዱስ</text>
+  <text x="340" y="240" class="fidel-massive">ያሬድ</text>
+  <text x="120" y="440" class="fidel-massive">ዝማሬ</text>
+  <text x="360" y="520" class="fidel-massive">ቅኝት</text>
+
+  <!-- St. Yared's 3 Primary Modes (ግዕዝ, ዕዝል, አራራይ) with decorative halos -->
+  <g transform="translate(60, 60)">
+    <circle cx="25" cy="-8" r="18" stroke="#D4AF37" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.15"/>
+    <text x="0" y="0" class="yared-symbol" fill="#F5D77F" opacity="0.28">ግዕዝ</text>
+    <!-- Neume annotation above mode -->
+    <path d="M5 -16 C12 -24 18 -12 25 -20" class="yared-neume"/>
+  </g>
+
+  <g transform="translate(260, 70)">
+    <circle cx="22" cy="-8" r="18" stroke="#D4AF37" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.15"/>
+    <text x="0" y="0" class="yared-symbol" fill="#F5D77F" opacity="0.28">ዕዝል</text>
+    <!-- Neume annotation -->
+    <path d="M-2 -18 L14 -14 L28 -22" class="yared-neume"/>
+  </g>
+
+  <g transform="translate(460, 60)">
+    <circle cx="28" cy="-8" r="18" stroke="#D4AF37" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.15"/>
+    <text x="0" y="0" class="yared-symbol" fill="#F5D77F" opacity="0.28">አራራይ</text>
+    <path d="M5 -20 Q20 -28 35 -16" class="yared-neume"/>
+  </g>
+
+  <!-- Row 1: Traditional Fidel Alphabets & Yared Notation Symbols -->
+  <text x="40" y="120" class="fidel-char">ሀ</text>
+  <text x="90" y="120" class="fidel-char">ሁ</text>
+  <text x="140" y="120" class="fidel-char">ሂ</text>
+  <text x="190" y="120" class="fidel-char">ሃ</text>
+  <!-- St Yared Sign: ይዘት (Yizet - Accent Neume) -->
+  <g transform="translate(240, 120)">
+    <text x="0" y="0" class="yared-symbol">ይዘት</text>
+    <path d="M12 -16 L22 -16 M17 -16 L17 -8" class="yared-neume"/>
+    <circle cx="38" cy="-6" r="2" class="manuscript-dot"/>
+  </g>
+  <text x="320" y="120" class="fidel-char">ሄ</text>
+  <text x="370" y="120" class="fidel-char">ህ</text>
+  <text x="420" y="120" class="fidel-char">ሆ</text>
+  <!-- Punctuation ፨ (Asterisk/Chapter separator) -->
+  <text x="490" y="122" class="fidel-char" fill="#E5A93B" opacity="0.25">፨</text>
+
+  <!-- Row 2: ל, Yared Sign: ጭረት (Chiret - Slash Neume) -->
+  <text x="50" y="190" class="fidel-char">ለ</text>
+  <text x="100" y="190" class="fidel-char">ሉ</text>
+  <!-- St Yared Sign: ጭረት (Chiret) -->
+  <g transform="translate(150, 190)">
+    <text x="0" y="0" class="yared-symbol">ጭረት</text>
+    <!-- Diagonal stroke over character representing sustained extension -->
+    <path d="M5 -10 L30 -22" class="yared-neume" stroke-width="2"/>
+  </g>
+  <text x="250" y="190" class="fidel-char">ሊ</text>
+  <text x="300" y="190" class="fidel-char">ላ</text>
+  <text x="350" y="190" class="fidel-char">ሌ</text>
+  <!-- St Yared Sign: ቅናት (Qinat - Rise/Sharp Neume) -->
+  <g transform="translate(410, 190)">
+    <text x="0" y="0" class="yared-symbol">ቅናት</text>
+    <path d="M8 -14 Q18 -26 28 -14" class="yared-neume" stroke-width="1.8"/>
+  </g>
+  <text x="510" y="190" class="fidel-char">ል</text>
+
+  <!-- Row 3: ሐ, St Yared Sign: ድፋት (Difat - Falling Cadence Neume) -->
+  <text x="30" y="260" class="fidel-char">ሐ</text>
+  <text x="80" y="260" class="fidel-char">ሑ</text>
+  <g transform="translate(140, 260)">
+    <text x="0" y="0" class="yared-symbol">ድፋት</text>
+    <!-- Downward cadence triangle / angled fall -->
+    <path d="M6 -22 L22 -10 L28 -16" class="yared-neume" stroke-width="2"/>
+    <circle cx="36" cy="-6" r="2" class="manuscript-green"/>
+  </g>
+  <text x="230" y="260" class="fidel-char">ሒ</text>
+  <text x="280" y="260" class="fidel-char">ሓ</text>
+  <!-- St Yared Sign: ሒደት (Hidet - Glide Neume) -->
+  <g transform="translate(340, 260)">
+    <text x="0" y="0" class="yared-symbol">ሒደት</text>
+    <path d="M4 -18 C14 -14 20 -24 32 -16" class="yared-neume"/>
+  </g>
+  <text x="440" y="260" class="fidel-char">ሔ</text>
+  <text x="490" y="260" class="fidel-char">ሕ</text>
+  <text x="540" y="260" class="fidel-char">ሖ</text>
+
+  <!-- Row 4: መ, St Yared Sign: ደረት (Deret - Chest Resonance) -->
+  <text x="40" y="330" class="fidel-char">መ</text>
+  <text x="90" y="330" class="fidel-char">ሙ</text>
+  <text x="140" y="330" class="fidel-char">ሚ</text>
+  <g transform="translate(200, 330)">
+    <text x="0" y="0" class="yared-symbol">ደረት</text>
+    <!-- Chest resonance symbol -->
+    <rect x="8" y="-22" width="18" height="6" stroke="#D4AF37" stroke-width="1.2" fill="none" opacity="0.3"/>
+  </g>
+  <text x="290" y="330" class="fidel-char">ማ</text>
+  <text x="340" y="330" class="fidel-char">ሜ</text>
+  <!-- St Yared Sign: ቁርጥ (Qurt - Staccato Cutoff) -->
+  <g transform="translate(400, 330)">
+    <text x="0" y="0" class="yared-symbol">ቁርጥ</text>
+    <!-- Sharp hook mark -->
+    <path d="M12 -22 L20 -14 L16 -10" class="yared-neume" stroke-width="2"/>
+  </g>
+  <text x="490" y="330" class="fidel-char">ም</text>
+  <text x="540" y="330" class="fidel-char">ሞ</text>
+
+  <!-- Row 5: ሠ, St Yared Sign: ርክርክ (Rikrik - Trill/Vibrato Neume) -->
+  <text x="50" y="400" class="fidel-char">ሠ</text>
+  <text x="100" y="400" class="fidel-char">ሡ</text>
+  <g transform="translate(160, 400)">
+    <text x="0" y="0" class="yared-symbol" fill="#F5D77F">ርክርክ</text>
+    <!-- Wavy trill neume -->
+    <path d="M0 -18 Q6 -26 12 -18 T24 -18 T36 -18" class="yared-neume" stroke-width="1.8"/>
+  </g>
+  <text x="260" y="400" class="fidel-char">ሢ</text>
+  <text x="310" y="400" class="fidel-char">ሣ</text>
+  <!-- St Yared Sign: አንብር (Anbir - Sustained Rest) -->
+  <g transform="translate(370, 400)">
+    <text x="0" y="0" class="yared-symbol">አንብር</text>
+    <!-- Horizontal pause bar with dual dots -->
+    <path d="M6 -16 L28 -16" class="yared-neume" stroke-width="2"/>
+    <circle cx="10" cy="-22" r="1.8" class="manuscript-dot"/>
+    <circle cx="24" cy="-22" r="1.8" class="manuscript-dot"/>
+  </g>
+  <text x="470" y="400" class="fidel-char">ሤ</text>
+  <text x="520" y="400" class="fidel-char">ሥ</text>
+
+  <!-- Row 6: ረ, ሰ, ቀ, በ, ተ -->
+  <text x="30" y="470" class="fidel-char">ረ</text>
+  <text x="80" y="470" class="fidel-char">ሩ</text>
+  <text x="130" y="470" class="fidel-char">ሪ</text>
+  <text x="180" y="470" class="fidel-char">ራ</text>
+  <!-- Ethiopic Punctuation ፥ and ፤ -->
+  <text x="230" y="470" class="fidel-char" fill="#D4AF37" opacity="0.3">፥</text>
+  <text x="260" y="470" class="fidel-char">ሰ</text>
+  <text x="300" y="470" class="fidel-char">ሱ</text>
+  <text x="340" y="470" class="fidel-char">ሲ</text>
+  <text x="380" y="470" class="fidel-char">ሳ</text>
+  <text x="420" y="470" class="fidel-char">ቀ</text>
+  <text x="460" y="470" class="fidel-char">ቁ</text>
+  <text x="500" y="470" class="fidel-char">ቂ</text>
+  <text x="540" y="470" class="fidel-char">ቃ</text>
+
+  <!-- Row 7: አ, ከ, ወ, ዐ, ዘ, የ, ደ, ገ, ጠ -->
+  <text x="40" y="540" class="fidel-char">አ</text>
+  <text x="90" y="540" class="fidel-char">ኡ</text>
+  <text x="140" y="540" class="fidel-char">ኢ</text>
+  <text x="190" y="540" class="fidel-char">ኣ</text>
+  <!-- Sacred Neume: ድፋት variant -->
+  <g transform="translate(240, 540)">
+    <path d="M4 -18 L18 -8 L24 -14" class="yared-neume"/>
+    <text x="0" y="0" class="yared-symbol" opacity="0.15">ደፋት</text>
+  </g>
+  <text x="320" y="540" class="fidel-char">ከ</text>
+  <text x="370" y="540" class="fidel-char">ወ</text>
+  <text x="420" y="540" class="fidel-char">ዐ</text>
+  <text x="470" y="540" class="fidel-char">ዘ</text>
+  <text x="520" y="540" class="fidel-char">ደ</text>
+
+  <!-- Ancient Manuscript Illuminations in 4 Corners & Centers -->
+  <!-- Top-left traditional cross knot -->
+  <g transform="translate(20, 20) scale(0.6)" opacity="0.25">
+    <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="#D4AF37"/>
+    <circle cx="10" cy="10" r="3" fill="#D9383A"/>
+  </g>
+  <!-- Top-right cross knot -->
+  <g transform="translate(560, 20) scale(0.6)" opacity="0.25">
+    <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="#D4AF37"/>
+    <circle cx="10" cy="10" r="3" fill="#1F854D"/>
+  </g>
+  <!-- Bottom-left cross knot -->
+  <g transform="translate(20, 560) scale(0.6)" opacity="0.25">
+    <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="#D4AF37"/>
+    <circle cx="10" cy="10" r="3" fill="#1F854D"/>
+  </g>
+  <!-- Bottom-right cross knot -->
+  <g transform="translate(560, 560) scale(0.6)" opacity="0.25">
+    <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="#D4AF37"/>
+    <circle cx="10" cy="10" r="3" fill="#D9383A"/>
+  </g>
+</svg>
